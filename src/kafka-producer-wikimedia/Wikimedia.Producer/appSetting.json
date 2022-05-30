@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ],
+
+  "SOURCE_URL": "https://stream.wikimedia.org/v2/stream/recentchange",
+
+  "BOOTSTRAP_SERVER": "localhost:9092",
+  "TOPICS": {
+    "WIKIMEDIA_TOPIC": "wikimedia"
+  }
+}
